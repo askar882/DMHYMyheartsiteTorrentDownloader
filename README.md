@@ -24,3 +24,7 @@
 
 ## 开源许可证
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg?longCache=true)](https://github.com/askar882/DMHYMyheartsiteDownloader/blob/master/LICENSE)
+
+## 参考内容
+[Stack Overflow: JavaScript blob filename without link](https://stackoverflow.com/questions/19327749/javascript-blob-filename-without-link/19328891#19328891)
+[Stack Overflow: HTML5 File API downloading file from server and saving it in sandbox](https://stackoverflow.com/questions/13752984/html5-file-api-downloading-file-from-server-and-saving-it-in-sandbox/13779352#13779352)
