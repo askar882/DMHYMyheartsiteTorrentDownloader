@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         DMHY heartsite
+// @name         动漫花园Myheartsite镜像站种子重命名助手
 // @namespace    https://github.com/askar882/DMHYMyheartsiteTorrentDownloader
 // @version      1.0
-// @description  Proxies torrent download with XHR and renames torrent file
+// @description  使用资源标题自动重命名下载的种子文件
 // @author       askar882
 // @license      MIT
 // @compatible   Chrome
