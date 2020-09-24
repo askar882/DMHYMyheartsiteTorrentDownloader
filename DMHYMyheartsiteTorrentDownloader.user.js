@@ -4,9 +4,10 @@
 // @version      1.0
 // @description  使用资源标题自动重命名下载的种子文件
 // @author       askar882
-// @license      MIT
+// @license      MIT License
 // @compatible   Chrome
 // @supportURL   https://github.com/askar882/DMHYMyheartsiteTorrentDownloader
+// @updateURL    https://raw.staticdn.net/askar882/DMHYMyheartsiteTorrentDownloader/master/DMHYMyheartsiteTorrentDownloader.user.js
 // @match        *://dongmanhuayuan.myheartsite.com/*
 // @grant        none
 // @noframe
