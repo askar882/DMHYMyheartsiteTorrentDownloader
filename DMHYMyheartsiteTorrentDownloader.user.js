@@ -1,12 +1,13 @@
 // ==UserScript==
 // @name         DMHY heartsite
-// @namespace    http://tampermonkey.net/
+// @namespace    https://github.com/askar882/DMHYMyheartsiteTorrentDownloader
 // @version      1.0
 // @description  Proxies torrent download with XHR and renames torrent file
 // @author       askar882
 // @license      MIT
 // @compatible   Chrome
-// @match        https://dongmanhuayuan.myheartsite.com/
+// @supportURL   https://github.com/askar882/DMHYMyheartsiteTorrentDownloader
+// @match        *://dongmanhuayuan.myheartsite.com/*
 // @grant        none
 // @noframe
 // ==/UserScript==
@@ -20,9 +21,6 @@
         subtree: true
     };
     const popObserver = new MutationObserver((mutationList, observer) => {
-        /*mutationList.forEach(elem => {
-            console.log(JSON.stringify(elem, '', 2));
-        });*/
         let pop = document.querySelector('.pop:not(.hide)');
         if (pop) {
             let title = pop.querySelector('.pop-header > h3');
@@ -45,10 +43,8 @@
                         xhr.open('GET', url, true);
                         xhr.responseType = 'blob';
                         xhr.onreadystatechange = () => {
-                            //console.log("onreadystatechange " + xhr.readyState);
                             if (xhr.readyState === 4) {
                                 anchor.href = window.URL.createObjectURL(xhr.response);
-                                //console.log(anchor.href);
                                 anchor.click();
                             }
                         };
